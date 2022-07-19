@@ -6,7 +6,8 @@ import Swift
 @_exported import SwiftPackageWithFramework
 import UIKit
 import _Concurrency
-@_hasMissingDesignatedInitializers public class DeviceService {
+public class DeviceService {
+  public init()
   public func modelName() -> Swift.String
   public func model() -> Swift.String
   public func name() -> Swift.String
