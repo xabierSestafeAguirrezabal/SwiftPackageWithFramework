@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SwiftPackageWithFramework-Swift.h</key>
 		<data>
-		GAUkM7lyN5v2v8ID3NGK8N+peW4=
+		+XJ6ixOyyUW8Kj/txYZIm0alA/0=
 		</data>
 		<key>Headers/SwiftPackageWithFramework.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SwiftPackageWithFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		LJbmRBeMRYxoRugHaBSJE51Vze4=
+		CS8TPiiRUPF0euwotX/Qu+HXR8M=
 		</data>
 		<key>Modules/SwiftPackageWithFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		81jg2PU6nAcBSQsreiAQQesYH8A=
+		2CBCMjq02e2n+EcIeteGZ56AgFg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,7 +39,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7fULwEql6OUYYpriXcLS91XOIg3A0zUzJrwfTxJp9rM=
+			7ogTPMKwKT/gxrYDdwrSWhjf2CGBOS9RwL5ujQVDJI0=
 			</data>
 		</dict>
 		<key>Headers/SwiftPackageWithFramework.h</key>
@@ -60,14 +60,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TfPrQ2YODkkXquQgT8yyDNrc64PI9KC7w1EsbGOZM3o=
+			zASwiEZbKSj2xJXpxM1CA0kGHcs+cOUXmEGw0NcHWhg=
 			</data>
 		</dict>
 		<key>Modules/SwiftPackageWithFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZQLsORGsSmiC+PiT30cUYkKSIfOJeX+kpBAtNZysYlA=
+			7HYSVUARh6AXppiXQ2sMQBO9AOaQ4xWglQ1OSp2OqlU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

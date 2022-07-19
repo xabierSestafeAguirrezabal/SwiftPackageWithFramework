@@ -4,7 +4,14 @@
 import Foundation
 import Swift
 @_exported import SwiftPackageWithFramework
+import UIKit
 import _Concurrency
-public struct SDK {
-  public static func sayHello()
+public struct DeviceService {
+  public func modelName() -> Swift.String
+  public func model() -> Swift.String
+  public func name() -> Swift.String
+  public func systemName() -> Swift.String
+  public func systemVersion() -> Swift.String
+  public func description() -> Swift.String
+  public func uuid() -> Swift.String
 }
