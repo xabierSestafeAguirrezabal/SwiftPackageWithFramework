@@ -6,7 +6,7 @@ import Swift
 @_exported import SwiftPackageWithFramework
 import UIKit
 import _Concurrency
-public struct DeviceService {
+@_hasMissingDesignatedInitializers public class DeviceService {
   public func modelName() -> Swift.String
   public func model() -> Swift.String
   public func name() -> Swift.String
@@ -14,4 +14,5 @@ public struct DeviceService {
   public func systemVersion() -> Swift.String
   public func description() -> Swift.String
   public func uuid() -> Swift.String
+  @objc deinit
 }
