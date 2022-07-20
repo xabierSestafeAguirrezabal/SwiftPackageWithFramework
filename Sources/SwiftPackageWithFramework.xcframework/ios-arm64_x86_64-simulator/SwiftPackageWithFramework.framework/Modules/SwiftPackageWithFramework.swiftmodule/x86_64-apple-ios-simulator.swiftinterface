@@ -35,6 +35,10 @@ public class JailBroken {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class EmulatedService {
+  public func isEmulated() -> Swift.Bool
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class WifiService : ObjectiveC.NSObject {
   public func getWiFiBssid() -> Swift.String?
   @objc override dynamic public init()
