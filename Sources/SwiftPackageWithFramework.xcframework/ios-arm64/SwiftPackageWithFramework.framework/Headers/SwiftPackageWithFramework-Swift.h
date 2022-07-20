@@ -227,6 +227,12 @@ SWIFT_CLASS("_TtC25SwiftPackageWithFramework3Gps")
 @end
 
 
+SWIFT_CLASS("_TtC25SwiftPackageWithFramework11RestService")
+@interface RestService : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 SWIFT_CLASS("_TtC25SwiftPackageWithFramework11WifiService")
 @interface WifiService : NSObject

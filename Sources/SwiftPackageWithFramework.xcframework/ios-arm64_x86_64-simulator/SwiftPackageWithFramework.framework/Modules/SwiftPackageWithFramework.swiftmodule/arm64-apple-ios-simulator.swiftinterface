@@ -10,8 +10,11 @@ import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
-@_hasMissingDesignatedInitializers public class RestService {
-  public func simplePostRequestWithParamsAndErrorHandling(url: Swift.String)
+@objc @_inheritsConvenienceInitializers public class RestService : ObjectiveC.NSObject {
+  public func getRequest(_ url: Swift.String) -> Swift.String
+  public func headRequest(_ url: Swift.String) -> Swift.String
+  public func postRequest(_ url: Swift.String, data: Foundation.Data?) -> Swift.String
+  @objc override dynamic public init()
   @objc deinit
 }
 public class DeviceService {
