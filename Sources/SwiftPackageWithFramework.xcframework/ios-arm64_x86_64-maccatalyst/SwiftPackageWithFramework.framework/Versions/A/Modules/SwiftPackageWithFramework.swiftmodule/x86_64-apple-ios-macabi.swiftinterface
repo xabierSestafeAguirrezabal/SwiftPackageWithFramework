@@ -23,6 +23,7 @@ public class DeviceService {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class WifiService : ObjectiveC.NSObject {
+  public func getWiFiBssid() -> Swift.String?
   @objc override dynamic public init()
   @objc deinit
 }
