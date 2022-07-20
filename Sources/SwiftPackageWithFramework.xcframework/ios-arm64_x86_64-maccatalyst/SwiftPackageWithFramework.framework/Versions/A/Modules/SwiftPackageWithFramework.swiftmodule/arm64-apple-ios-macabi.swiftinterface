@@ -22,6 +22,11 @@ public class DeviceService {
   public func getArchitecture() -> Swift.String
   @objc deinit
 }
+@_hasMissingDesignatedInitializers public class JailBroken {
+  public func isDeviceJailbroken() -> Swift.Bool
+  public func isCydiaAppInstalled() -> Swift.Bool
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class Gps : UIKit.UIViewController, CoreLocation.CLLocationManagerDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) public func getCoordinates() -> CoreLocation.CLLocationCoordinate2D
