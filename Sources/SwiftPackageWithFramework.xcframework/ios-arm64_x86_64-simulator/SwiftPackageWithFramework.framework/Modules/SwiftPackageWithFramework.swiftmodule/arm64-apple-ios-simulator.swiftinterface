@@ -22,7 +22,8 @@ public class DeviceService {
   public func getArchitecture() -> Swift.String
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class JailBroken {
+public class JailBroken {
+  public init()
   public func isDeviceJailbroken() -> Swift.Bool
   public func isCydiaAppInstalled() -> Swift.Bool
   @objc deinit
