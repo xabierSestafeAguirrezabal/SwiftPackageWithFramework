@@ -35,7 +35,8 @@ public class JailBroken {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class EmulatedService {
+public class EmulatedService {
+  public init()
   public func isEmulated() -> Swift.Bool
   @objc deinit
 }
